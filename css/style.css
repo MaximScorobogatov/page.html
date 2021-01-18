@@ -1,0 +1,805 @@
+/* Цветок фон действие 1*/
+.Fon-image {
+    display:flex;
+    /*width: 1280px;*/   
+    width: 100%;
+    background-size: cover;    
+    margin:0 auto;
+    background-image:url(../img/Flower-big.jpg);
+    margin-bottom: 70px;
+    margin-top: -89px;
+}
+
+
+/*--Объединим фон и текст в блок для переноса-действие 2*/
+
+.plus {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-left: 10%;   
+    margin: 0 auto;
+  /*  padding-right: 18%;*/
+   }
+
+
+/* Прозрачный фон  действие 3*/
+
+.Fon-1 {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0.902;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.Fon {
+    background-color: white;
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-around;
+    opacity: 0.902;
+    align-items: center;
+    text-decoration: none;
+}
+
+.text-graff > p > a {
+    font-size: 41px;
+    font-family: "Lavanderia";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-decoration: none;
+    width: 100%;
+    width: 100%;
+    display: flex;
+    padding-left: 38px;
+}
+
+
+.text-graff > p > a:hover {
+    background-color:rgb(222, 109, 110);
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+   
+   .pink{
+    color:#ba4562;
+    text-decoration: none;
+   }
+
+   .menu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;        
+}
+
+
+.menu>li>a {
+    text-decoration: none;
+    color: rgba(69, 69, 69, 0.749);
+}
+ 
+
+.menu>li>a:hover {
+    background-color: rgb(222, 109, 110);
+    border-radius: 3px;
+    color:white;
+}
+ 
+
+ .icon-little{
+ margin-right: 3px;
+ align-items: center;
+ 
+ }
+.lOGIN {
+    border-radius: 3px;
+    background-color: rgb(222, 109, 110);
+    width: 87px;    
+    text-align: center;
+    color:white;    
+}
+    li {
+    padding-right: 39px;
+    text-decoration: none;     
+    font-size: 17px;
+    font-family: "Segoe UI";
+    color: rgba(69, 69, 69, 0.749);
+    line-height: 1.2;
+    }
+
+
+/*--внутри-Текст-фон действие 4--*/
+
+
+.text-margin  {   
+    display:flex;
+    margin:0 auto;
+    flex-direction: column;  
+    align-items: center;
+    color:white;
+    margin-top: 340px;
+   /* margin-left:174px; */
+    }  
+
+
+    .Slogan {
+        margin-bottom: 0px;
+        margin-top: 56px;
+        font-size: 69px;
+        font-family: "AlteHaasGrotesk_Bold";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;       
+        text-align: center;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
+        
+    }   
+
+    .A-multi-purpose {
+        margin-top: 0px;
+        font-size: 25px;
+        font-family: "UniversLT";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
+        margin-left: 32px;
+        margin-bottom: 78px
+    }
+
+
+
+/*-- Описание с 4 кружочками --*/
+
+.Fon-image-2 {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.Text-lorem-4-picters {
+    display:flex;    
+    margin:0 auto;
+    flex-direction: column; 
+    text-align: center;
+    
+}
+
+.Lorem-big {
+    font-size: 35px;
+    line-height: 1.2;
+    margin-top: -15px;   
+   
+}
+
+
+.lorem-little {
+    line-height: 1.2;
+    margin-bottom: 87px;
+    margin-top: -0.6%;
+    margin-left: 88px;
+           
+}
+
+.img-lorem-4-picters {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 49px;
+    border-bottom: 1px solid grey;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: match-parent;
+    width: 1024px; 
+}
+
+
+.img-lorem-4-picters>a {
+    text-decoration: none;
+}
+
+
+.in-beer {
+    display:flex;
+    font-size: 12px;
+    width: 126px;
+    color: #ff5649;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 27px;
+    margin-top: -133px;
+    text-decoration:none;  
+}
+
+.in-beer:hover {
+    display: flex;
+    font-size: 12px;
+    width: 126px;
+    color:white;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 27px;
+    margin-top: -133px;
+    text-decoration:none;  
+}
+
+  /*-- Семья с описанием --*/
+
+.Fon-image-3 {
+    display:flex;
+    width: 100%;
+    padding-top: 46px;
+    margin:0 auto;
+    flex-direction: column;
+    
+}
+
+.Fon-image-3_1 {
+    display: flex;
+    padding-top: -5px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+   
+}
+
+
+
+.block-1 {
+    display: flex;   
+    padding-left: 3%;
+    color: rgb(64, 64, 64);
+    line-height: 1.2;
+    margin: 0 auto;
+    justify-content: inherit;
+    padding-bottom: 40px;
+}
+
+.block-1_1 {
+    display: flex;
+    flex-direction: wrap;
+    padding-bottom: 70px;
+    padding-left: 4%;
+    color: rgb(64, 64, 64);
+    line-height: 1.2;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.Lorem-big-2 {
+    font-size: 27px;
+    font-family: "UniversLT";
+    margin-top: -0.5%;   
+}
+
+    .lorem-little-2 {
+        font-size: 15px;
+        line-height: 1.467;
+        font-family: "UniversLT";
+        margin-top: -2%;
+    }
+       
+     .family {
+       
+        margin-right: 23px;
+        margin-left: 14%;
+        max-height: 100%;
+        min-width: 75%;
+    }
+
+
+/*-- Подвал--*/
+
+.Footer-1 {
+    color:#696b6a;
+    display:flex;
+    width: 100%;    
+    margin:0 auto;
+    height: auto; 
+    background-color:#282828;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+.Footer {
+    color:#696b6a;
+    display:flex;      
+    margin:0 auto;
+    height: auto; 
+    background-color:#282828;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 73px;
+
+}
+
+.column-1>.sub-menu>.device {
+    list-style-type: none;
+    justify-content: space-between;
+}
+.column-2>a>img {
+    justify-content: center;
+    margin-top: 57px;
+    margin-right: 21px;
+}
+.copyright{
+    font-size: 15px;
+    font-family: "UniversLT";
+    color: rgb(139, 139, 139);
+    line-height: 1.467;     
+  }
+  
+.sub-menu {
+    font-size: 21px;    
+    color: rgb(174, 174, 174);
+    line-height: 1.048;    
+    text-align: center;
+    margin-left: 18px;
+    margin-top:36px;    
+}
+
+  .device>li>a {
+   text-decoration: none;
+   color: rgb(139, 139, 139);    
+  }
+
+  .device>li>a:hover {    
+    background-color:white;
+    border-radius: 3px;       
+   }
+
+.device>li {
+    display:flex;
+    font-size: 15px;
+    font-family: "UniversLT";
+    color: rgb(139, 139, 139);
+    line-height: 1.467;   
+    list-style-type: none;
+    }
+        
+  
+  /* Адаптация под устройства */ 
+
+
+
+
+  
+
+  /* Адаптация под планшет*/ 
+
+  @media all and (min-width:768px) and (max-width:960px) {
+
+    
+  /* Цветок фон действие 1*/
+.Fon-image {
+    display:flex;
+    width: 75%;   
+    margin-bottom: 52.5px;
+    margin-top: -66.75px;
+}
+
+
+/*--Объединим фон и текст в блок для переноса-действие 2*/
+.plus {    
+    margin-left: 7.5%;
+    margin: 0 auto;
+    padding-right: 18%;
+}
+
+
+/* Прозрачный фон  действие 3*/
+
+.Fon-1{    
+    width: 75%;     
+    }
+
+.Fon {
+width: 75%;
+}
+
+
+.text-graff > p > a {
+    
+    width: 75%;    
+    padding-left: 75%;  
+}
+
+/*
+   .menu {
+    
+    margin-top: 2.25%;    
+    padding-left: 24.75%;   
+    flex-wrap:nowrap;
+
+}
+*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;        
+}
+ 
+ .icon-little{
+ margin-right: 2.25px;
+ align-items: center; 
+ }
+
+.lOGIN {   
+    width: 65.25px;   
+}
+
+    li {
+    padding-right: 29.25px;  
+    }
+
+
+
+/*--внутри-Текст-фон действие 4--*/
+
+.text-margin  {   
+    
+    margin-top: 255px;
+    margin-left:130.5px;    
+    }  
+
+
+    .Slogan {
+        margin-bottom: 0px;
+        margin-top: 42px;  
+        text-align: center;      
+    }   
+
+
+    .A-multi-purpose {
+        margin-left: 24px;
+        margin-bottom: 58.5px
+    }
+
+
+/*-- Описание с 4 кружочками --*/
+
+.Fon-image-2 {   
+    width: 75%;         
+}
+
+.Text-lorem-4-picters {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 21px;
+    text-align: center;
+    width: 75%;
+}
+
+.Lorem-big {
+  
+    margin-top: -11.25px;   
+   
+}
+
+
+.lorem-little {    
+    margin-bottom: 65.25px;
+    margin-top: -0.45%;
+    margin-left: 0px;
+}
+
+.img-lorem-4-picters {
+    
+    flex-wrap: wrap;   
+    padding-bottom: 36.75px;    
+    margin-right: 7.5px;    
+}
+
+.in-beer {   
+    width: 94.5px;      
+    margin-left: 40.43px;
+    margin-top: -154.56px;
+}
+.in-beer:hover {
+    
+    width: 94.5px;      
+    margin-left: 40.43px;
+    margin-top: -154.56px;
+}
+
+  /*-- Семья с описанием --*/
+
+.Fon-image-3 {
+   
+    width: 100%;
+    padding-top: 34.5px;     
+ }
+
+
+.Fon-image-3_1 {
+    display:flex;
+    width: 75%;   
+    padding-top: 34.5px; 
+}
+
+.block-1 {
+    
+    padding-bottom: 30px;
+    padding-left: 3%;
+    
+}
+
+.block-1 {
+    display: flex;   
+    padding-left: 3%;
+    color: rgb(64, 64, 64);
+    line-height: 1.2;
+    margin: 0 auto;
+    justify-content: inherit;
+    padding-bottom: 40px;
+}
+      
+     .family {
+        margin-right: 17.25px;
+        margin-left: 10.5%;
+    }
+
+
+/*-- Подвал--*/
+
+
+.Footer {
+    color:#696b6a;
+    display:flex;
+    padding-left: 54.75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column-2>a>img {
+   
+    margin-top: 42.75px;
+    margin-right: 15.75px;
+}
+
+.sub-menu {
+    
+    margin-left: 13.5px;
+    margin-top:27px;    
+}
+
+  
+  .device>li>a:hover {    
+    background-color:white;
+    border-radius: 2.25px;       
+   }
+        
+   li {
+    padding-right: 23.4px;
+   
+}
+
+.text-graff > p > a {
+
+    padding-left: 28.5px;
+}
+  
+}
+
+
+
+/* Адаптация под мобильный*/ 
+
+  @media all and (min-width:320px) and (max-width:768px) 
+  
+  {
+  
+    
+  /* Цветок фон действие 1*/
+.Fon-image {
+    display:flex;
+    max-width: 75%;   
+    min-width: 60%;   
+    margin-bottom: 31.5px;
+    margin-top: -40.05px;
+}
+
+/*--Объединим фон и текст в блок для переноса-действие 2*/
+.plus {
+    margin-left: 4.5%;
+    margin: 0 auto;
+    padding-right: 6.48px;       
+}
+
+/* Прозрачный фон  действие 3*/
+
+.Fon-1{    
+    width: 100%;     
+    }
+
+.Fon {
+width: 60%;
+}
+
+.text-graff > p > a {
+    
+    width: 60%;    
+    padding-left: 60%;
+
+   /* padding-left: 28.5px;*/
+
+
+}
+/*
+   .menu {    
+    margin-top: 1.35%;    
+    padding-left: 14.85%; 
+    flex-wrap: wrap;  
+}
+ */
+ .menu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;  
+    flex-wrap: wrap;        
+}
+
+
+
+ .icon-little{
+ margin-right: 1.35px;
+ align-items: center; 
+ }
+
+.lOGIN {   
+    width: 39.15px;   
+}
+    li {
+    padding-right: 17.55px;  
+    }
+
+/*--внутри-Текст-фон действие 4--*/
+
+.text-margin  {   
+    
+    margin-top: 153px;
+   /* margin-left:78.3px;*/
+   margin-left:0px;
+   
+    }  
+
+    .Slogan {
+        margin-bottom: 0px;
+        margin-top: 25.2px;  
+        text-align: center;  
+        font-size: 41.4px;  
+    }   
+
+    .A-multi-purpose {
+        margin-left: 14.4px;
+        margin-bottom: 35.1px
+    }
+
+   
+/*-- Описание с 4 кружочками --*/
+
+.Fon-image-2 {   
+   /* width: 60%;*/     
+}
+
+.Text-lorem-4-picters {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 12.6px;
+    text-align: center;    
+}
+
+.Lorem-big {
+      margin-top: -6.75px;      
+}
+
+.lorem-little {    
+    margin-bottom: 39.15px;
+    margin-top: -0.27%;
+    margin-left: 0px;
+}
+
+.img-lorem-4-picters {    
+    flex-wrap: wrap;   
+    padding-bottom: 22.05px;    
+    margin-right: 4.5px;  
+    text-align: center;
+    justify-content: space-around;
+}
+
+  /*-- Семья с описанием --*/
+
+.Fon-image-3 {
+   
+    width: 100%;
+    padding-top: 20.7px;      
+}
+
+.Fon-image-3_1 {
+    display:flex;
+    width: 60%;   
+    }
+
+    .block-1 {
+        display: block;
+        padding-bottom: 24px;
+        padding-left: 2.4%;
+        text-align: center;        
+    } 
+    
+
+    .block-1_1 {
+        display: block;
+        flex-direction: wrap;
+        padding-bottom: 42px;
+        padding-left: 4%;
+        color: rgb(64, 64, 64);
+        line-height: 1.2;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+     .family {
+        margin-right: 10.35px;
+        margin-left: 6.3%;
+    }
+
+    .Lorem-big-2 {
+        font-size: 27px;
+        font-family: "UniversLT";
+        margin-top: -0.5%;   
+    }
+/*-- Подвал--*/
+.Footer {
+    color:#696b6a;
+    display:flex;
+   padding-left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column-2>a>img {   
+    margin-top: 42.75px;
+    margin-right: 15.75px;
+}
+
+.sub-menu {    
+    margin-left: 13.5px;
+    margin-top:27px;    
+} 
+  .device>li>a:hover {    
+    background-color:white;
+    border-radius: 2.25px;       
+   }
+        
+   li {
+    padding-right: 23.4px;
+   }
+
+.menu {
+    margin-top: 2.25%;
+    padding-left: 24.75%;
+}
+
+.text-graff > p > a {
+    padding-left: 28.5px;
+}
+}
+  
